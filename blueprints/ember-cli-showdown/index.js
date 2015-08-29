@@ -1,8 +1,8 @@
-"use strict";
+'use strict';
 
 module.exports = {
   normalizeEntityName: function () {},
   afterInstall: function () {
-    return this.addBowerPackageToProject("showdown");
+    return this.addBowerPackageToProject('showdown');
   }
 }
