@@ -1,10 +1,10 @@
-/* global Showdown */
+/* global showdown */
 import Ember from 'ember';
 
 export default Ember.Component.extend({
   init: function() {
     this._super();
-    this.converter = new Showdown.converter();
+    this.converter = new showdown.Converter();
   },
 
   html: Ember.computed('markdown', function() {
